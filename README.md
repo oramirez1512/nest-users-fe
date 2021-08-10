@@ -1,9 +1,9 @@
-# Description
+## Description
 this aplicacion return a list of users from a api built in nest
-# Before to start
+## Before to start
 Required version of node: 14.17.4
 
-# Getting Started 
+## Getting Started 
 
 Clone the repository: https://github.com/oramirez1512/nest-users-fe.git
 
@@ -12,7 +12,7 @@ npm install
 npm run build
 npm run start
 
-#Aplication
+## Aplication
 Now you can see the aplication running in your localhost: http://localhost:3000/
 or you can see this in https://nest-users-fe.herokuapp.com/
 
