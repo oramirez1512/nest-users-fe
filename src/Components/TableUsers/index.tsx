@@ -80,7 +80,7 @@ function TableUser(props: IProps) {
                 {persons.map((p, index) => {
                   return (
                     <React.Fragment>
-                      <TableRow key={index} onClick={() => updateRow(p)}>
+                      <TableRow key={index} onClick={() => updateRow(p)} hover>
                         <TableCell component="th" scope="row">
                           {p["id"]}
                         </TableCell>
