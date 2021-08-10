@@ -125,7 +125,7 @@ export default class PersonList extends React.Component {
   };
 
   componentDidMount() {
-    axios.get(`https://jsonplaceholder.typicode.com/users`).then((res) => {
+    axios.get(`https://nest-user-be.herokuapp.com/users`).then((res) => {
       const persons: [user] = res.data;
       this.setState({ persons });
     });
